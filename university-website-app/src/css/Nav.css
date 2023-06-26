@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #D03036;
+    padding: 5px;
+}
+
+.navbar-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-list > li {
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+

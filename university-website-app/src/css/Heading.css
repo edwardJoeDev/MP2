@@ -1,0 +1,32 @@
+.heading-container {
+    height: 100px;
+    position: relative;
+}
+
+img {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.heading {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #A6A6A6;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.navbar-heading {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.navbar-heading > li {
+    padding-left: 10px;
+}
