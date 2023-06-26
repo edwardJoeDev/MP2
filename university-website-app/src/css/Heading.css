@@ -5,17 +5,11 @@
 
 img {
     height: 100px;
-    position: absolute;
-    bottom: 0;
 }
 
 .heading {
-    height: 30px;
     display: flex;
     align-items: center;
-    background-color: #A6A6A6;
-    position: absolute;
-    bottom: 0;
     justify-content: space-between;
     width: 100%;
 }
@@ -25,8 +19,12 @@ img {
     display: flex;
     list-style: none;
     margin-left: 100px;
+    background-color: #A6A6A6;
+    height: 30px;
 }
 
-.navbar-heading > li {
-    padding-left: 10px;
+.search-bar {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }

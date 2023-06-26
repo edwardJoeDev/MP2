@@ -7,13 +7,7 @@ export default function Heading () {
         <div className="heading-container">
             <header className="heading">
                 <img src={Logo}/>
-                <ul className="navbar-heading">
-                    <li>Student Portal</li>
-                    <li>Our Programs</li>
-                    <li>Apply Now</li>
-                    <li>Contact Us</li>
-                </ul>
-                <div>
+                <div className="search-bar">
                 <input placeholder="Input text"></input>
                 <button>Search</button>
                 </div>

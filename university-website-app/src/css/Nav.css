@@ -1,11 +1,13 @@
 .navbar {
     background-color: #D03036;
+    color: white;
     padding: 5px;
 }
 
 .navbar-list {
     display: flex;
     list-style-type: none;
+    justify-content: space-around;
 }
 
 .navbar-list > li {
@@ -13,3 +15,8 @@
     padding-left: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .navbar-list {
+        flex-direction: column;
+    }
+  }
