@@ -1,18 +1,22 @@
 .navbar {
-    background-color: #D03036;
+    background-color: #8D1436;
     color: white;
-    padding: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar-list {
     display: flex;
-    list-style-type: none;
     justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Archivo', sans-serif;
+    width: 800px;
 }
 
 .navbar-list > li {
-    text-transform: capitalize;
-    padding-left: 10px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {

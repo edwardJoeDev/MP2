@@ -1,17 +1,16 @@
-import React from "react"
-import '../css/Heading.css'
-import Logo from '../img/Logo.png'
+import React from "react";
+import '../css/Heading.css';
+import Logo from '../img/Logo.png';
+import SchlBldg from '../img/school-bldg-heading.png';
 
 export default function Heading () {
     return (
-        <div className="heading-container">
             <header className="heading">
-                <img src={Logo}/>
+                <img src={Logo} className="school-logo"/>
                 <div className="search-bar">
-                <input placeholder="Input text"></input>
                 <button>Search</button>
                 </div>
+                <img src={SchlBldg} className="school-building"/>
             </header>
-        </div>
     )
 }
