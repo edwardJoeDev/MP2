@@ -7,7 +7,7 @@ import DotWelcome from '../img/dot-welcome.png';
 
 export default function Welcome () {
     return (
-        <div className="welcome-container">
+        <section className="welcome-container">
             <div className="swirl">
                 <img src={swirl} className="swirl-img"/>
                 <video src={WelcomeVideo} controls>
@@ -23,6 +23,6 @@ export default function Welcome () {
             <div className="side-photo">
                 <img src={BldgStudents}/>
             </div>
-        </div>
+        </section>
     )
 }

@@ -3,7 +3,7 @@ import '../css/Nav.css'
 
 export default function NavBar () {
     return (
-        <div className="navbar">
+        <nav className="navbar">
             <ul className="navbar-list">
                 <li>home</li>
                 <li>about</li>
@@ -12,6 +12,6 @@ export default function NavBar () {
                 <li>student portal</li>
                 <li>contact us</li>
             </ul>
-        </div>
+        </nav>
     )
 }
