@@ -4,6 +4,7 @@ import Heading from './Components/Heading';
 import NavBar from './Components/Nav';
 import Welcome from './Components/Welcome';
 import About from './Components/About';
+import WhyChooseUs from './Components/Whychooseus';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <NavBar />
       <Welcome />
       <About />
+      <WhyChooseUs />
+      
     </div>
   );
 }

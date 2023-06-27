@@ -1,0 +1,55 @@
+.choose-us {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url(../img/welcome-bg.png);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose-us-div {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.why-choose-us-title-dot {
+    height: 60px;
+}
+
+.choose-us-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choose-us-card {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 0 3% 3% 3%;
+}
+
+.choose-us-card > p {
+    width: 300px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+
+.dot-img {
+    height: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.choose-img {
+    height: 300px;
+    margin: 5% 0 5% 0;
+}
