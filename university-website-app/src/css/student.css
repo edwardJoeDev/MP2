@@ -1,0 +1,81 @@
+* {
+    font-family: 'Archivo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.student-list {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* border: 1px black solid; */
+    border-radius: 20px;
+    padding: 20px;
+    list-style: none;
+    background: linear-gradient(to bottom right, white, #737373 70%);
+}
+
+.student-img {
+    margin: 10px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.student-list-info{
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    width: 100%;
+    background-image: url(../img/student-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: left bottom;
+}
+
+.student-info {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.student-name {
+    /* margin-left: 20%; */
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.student-age {
+    /* margin-left: 20%; */
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.student-course {
+    /* margin-left: 20%; */
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subject-table {
+    color: white;
+    margin-left: 20%;
+}
+
+table {
+    border-collapse: separate;
+    font-size: 30px;
+}
+
+th {
+    text-align: left;
+    padding: 20px;
+}
+
+td {
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+}

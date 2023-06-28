@@ -5,6 +5,7 @@ import NavBar from './Components/Nav';
 import Welcome from './Components/Welcome';
 import About from './Components/About';
 import WhyChooseUs from './Components/Whychooseus';
+import StudentList from './Components/students';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Welcome />
       <About />
       <WhyChooseUs />
-      
+      <StudentList />
     </div>
   );
 }
