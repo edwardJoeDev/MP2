@@ -19,6 +19,11 @@
     text-transform: uppercase;
 }
 
+.navbar-list-link {
+    text-decoration: none;
+    color: white;
+}
+
 @media screen and (max-width: 600px) {
     .navbar-list {
         flex-direction: column;
