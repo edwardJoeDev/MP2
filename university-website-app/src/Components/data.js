@@ -49,7 +49,7 @@ export const students = [
     imageId:"0",
 },
 
-    {id:2,
+    {id:1,
     fisrtName:"Michael Edward",
     lastName:"Protacio",
     age:20,
