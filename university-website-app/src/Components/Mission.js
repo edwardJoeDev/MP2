@@ -10,7 +10,7 @@ AOS.init();
 const Mission = () => {
   return (
       <div className="mission-container">
-            <div className="mission-row" data-aos="fade-up" data-aos-duration="2000">
+            <div className="mission-row" data-aos="fade-up" data-aos-duration="1000">
                 <div className="miss col-md-6 p-lg-4">
                     <img src={dash} alt="Hero" style={{ width: '200px', height: '200px' }}/>
   

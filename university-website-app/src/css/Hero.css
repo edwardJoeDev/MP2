@@ -19,7 +19,7 @@
   .slenda-row{
  
     margin-top: 38px;
-    padding-left: 250px;
+    /* padding-left: 250px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +57,7 @@
    .buttoncheck button {
     
    background-color: #8D1436;
-    border-radius: 20px;
+    border-radius: 5px;
    
     justify-content: center;
     align-self: baseline;
@@ -65,11 +65,9 @@
     
    
 
-  .col-md-6 img{
-    border-radius: 30px;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); 
-
-
-  }
+  /* .col-md-6 img{
+    /* border-radius: 30px; */
+    /* box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); 
+  } */
 
  
