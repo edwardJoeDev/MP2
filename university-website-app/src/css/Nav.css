@@ -2,9 +2,9 @@
     background-color: #8D1436;
     color: white;
     height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 .navbar-list {
@@ -12,7 +12,8 @@
     justify-content: space-around;
     list-style-type: none;
     font-family: 'Archivo', sans-serif;
-    width: 800px;
+    width: 100%;
+    margin: 0 20% 0 20%;
 }
 
 .navbar-list > li {

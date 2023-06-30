@@ -1,12 +1,12 @@
 import Welcome from "../Components/Welcome"
 import WhyChooseUs from "../Components/Whychooseus"
-import About from '../Components/About'
+import Hero from "../Components/Hero"
 
 const Home = () => {
     return (
         <div>
+        <Hero />
         <Welcome />
-        <About />
         <WhyChooseUs />
         </div>
         )
