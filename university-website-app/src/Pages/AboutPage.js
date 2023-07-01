@@ -1,10 +1,11 @@
-import About from "../Components/About";
+
 import Mission from "../Components/Mission";
+import Card from "../Components/Card";
 
 const AboutPage = () => {
     return (
         <div>
-            <About />
+            <Card />
             <Mission />
         </div>
         )

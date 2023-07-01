@@ -150,8 +150,8 @@ export const students = [
 },
 
     {id:3,
-    fisrtName:"Jelleca",
-    lastName:"Munar",
+    fisrtName:"Jellaiza",
+    lastName:"Manuel",
     age:20,
     course:[{bachelor:"Technology", major:"Drafting Technology"}],
     subjects:[
@@ -201,7 +201,7 @@ export const students = [
 
     {id:4,
     fisrtName:"Estella",
-    lastName:"Bendijo",
+    lastName:"Maria",
     age:20,
     course:[{bachelor:"Technology", major:"Drafting Technology"}],
     subjects:[
